@@ -1,0 +1,16 @@
+# Compiled programs and intermediate build output
+**/bin/
+**/build/
+
+# Common compiler artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
