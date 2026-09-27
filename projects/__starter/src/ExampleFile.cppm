@@ -1,0 +1,7 @@
+
+
+namespace __Starter
+{
+
+    
+}
