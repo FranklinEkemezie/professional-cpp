@@ -6,9 +6,9 @@ BIN_DIR := bin
 SOURCES := $(shell find . -type f -name '*.cpp')
 PROGRAMS := $(patsubst ./%.cpp,$(BIN_DIR)/%,$(SOURCES))
 
-$(info SOURCES:)
-$(foreach source,$(SOURCES),$(info   $(source)))
-$(info )
+# $(info SOURCES:)
+# $(foreach source,$(SOURCES),$(info   $(source)))
+# $(info )
 
 # $(info PROGRAMS:)
 # $(foreach program,$(PROGRAMS),$(info   $(program)))
